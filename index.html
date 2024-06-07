@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="on()">Turn
+        on the light</button>
+    <img id="demo"
+        src="https://iheartcraftythings.com/wp-content/uploads/2021/04/Light-Bulb-DRAWING-%E2%80%93-STEP-10.jpg"
+        alt="" height="200px" width="200px">
+    <button
+        onclick="off()">Turn
+        off the light</button>
+</body>
+<script>
+    function off() {
+        document.getElementById('demo').src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDOsOIuCgHHb1zP0QWsR-sIFVIHiT4brVN1SgJ36AJdQ&s'
+    }
+    function on() {
+        document.getElementById('demo').src = 'https://iheartcraftythings.com/wp-content/uploads/2021/04/Light-Bulb-DRAWING-%E2%80%93-STEP-10.jpg"'
+    }
+</script>
+
+</html>
